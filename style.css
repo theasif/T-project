@@ -1,0 +1,482 @@
+html {
+    scroll-behavior: smooth;
+}
+.button-design {
+    text-decoration: none;
+    color: white;
+    background: #2c6f2f;
+    padding: 12px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* banner section start hear  */
+.banner-section {
+    background-image: linear-gradient(
+        to left,
+        #89e780,
+        #69bd64,
+        #4a9548,
+        #2c6f2f,
+        #0d4b16
+    );
+    height: auto;
+    background-position: center;
+    overflow: hidden;
+}
+
+.banner-content .left-site {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.banner-content .left-site .leftSiteContent:hover a {
+    background: #69bd64;
+    color: white;
+}
+.button-design .right-image {
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+.button-design .right-image img {
+    height: 750px;
+}
+.button-design .left-site h1 {
+    line-height: 60px;
+    font-size: 50px;
+}
+.button-design .left-site p {
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 600px) {
+    .right-image img {
+        height: 550px;
+    }
+    .banner-content .left-site {
+        padding: 40px 30px 0px 30px;
+        text-align: center;
+    }
+    .yoga-parent {
+        padding: 30px 30px 0px 30px;
+    }
+}
+/* banner section end hear */
+/* yoga section start hear */
+.yogaSection {
+    height: 100vh;
+    background: white;
+    border-top: 5px solid #317e52;
+}
+
+.yogaLeftContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.yogaLeftContent h5 {
+    color: #ff8800;
+}
+.yogaLeftContent h2 {
+    color: #317e52;
+    font-size: 40px;
+}
+.yogaLeftContent p {
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.yogaLeftContent a:hover {
+    color: white;
+}
+.yogaSection .yogaImage .img-size {
+    width: 100%;
+    border-radius: 10px;
+}
+.yogaSection .yogaImage {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+.yogaSection .yogaButton {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -10px;
+}
+.yogaSection .yogaButton a {
+    padding: 30px 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #317e52;
+}
+.yogaSection .yogaButton a:hover {
+    color: #317e52;
+}
+/* yoga section style end hear */
+/* Card section style start hear */
+.card-section {
+    background: #f9f6f5;
+}
+.card-section .card-title {
+    text-align: center;
+    padding: 40px 0px;
+}
+.card-parent-div {
+    padding-bottom: 60px;
+}
+.card-section .card-title h5 {
+    color: #ff8800;
+}
+.card-section .card-title h1 {
+    color: #317e52;
+}
+.card-item {
+    text-align: center;
+    background: #fff;
+    padding: 30px 0px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.card-section .card-item i {
+    font-size: 60px;
+    color: #ff8800;
+}
+.card-section .card-item h3 {
+    color: #317e52;
+    margin: 20px 0px;
+}
+/* card section style end hear */
+/* Card section two start hear */
+.card-section-two {
+    background-image: linear-gradient(
+        to right,
+        #0d251d,
+        #13392c,
+        #194e3c,
+        #1f634c,
+        #257a5d
+    );
+    height: auto;
+}
+.card-section-two .mainContent {
+    padding: 4em 0;
+}
+.card-section-two .card-left-content {
+    height: 100%;
+    background: white;
+    padding: 40px;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-section-two .card-left-content h5 {
+    color: #ff8800;
+}
+.card-section-two .card-left-content h1 {
+    color: #317e52;
+}
+.card-section-two .card-left-content p {
+    color: #52645e;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.card-section-two .card-left-content a:hover {
+    color: white;
+}
+.card-section-two .c-content {
+    background: #0d271f;
+    padding: 6vh;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-bottom: 4vh;
+}
+.card-section-two .c-content i {
+    color: #ff8800;
+    font-size: 45px;
+}
+.card-section-two .c-content h3 {
+    color: white;
+}
+.card-section-two .c-content p {
+    color: white;
+}
+/* Card tow design end hear  */
+/* awesome-section style start hear */
+.awesome-section {
+    padding: 80px 0px;
+}
+.awesome-section .awesome-left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    padding: 40px 0px;
+}
+.awesome-section .awesome-left h6 {
+    color: #ff8800;
+}
+.awesome-section .awesome-left h1 {
+    color: #104131;
+}
+.awesome-section .awesome-left p {
+    color: rgb(22, 22, 22);
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.awesome-section .awesome-left a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: #104131;
+}
+.right-design .card-design {
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.right-design .card-design:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.right-design .card-design img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out;
+}
+.right-design .card-design img:hover {
+    transform: rotate(360deg);
+}
+.right-design .name-text {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.right-design .name-text h4 {
+    color: #104131;
+}
+.right-design .name-text p {
+    color: #104131;
+}
+
+/* awesome-section end hear */
+/* Latest News section style start hear  */
+.latest-news {
+    background-color: antiquewhite;
+    padding: 80px 0px;
+}
+.latest-news .latest-news-title {
+    text-align: center;
+}
+.latest-news .latest-news-title h1 {
+    color: #185e35;
+    margin-bottom: 60px;
+}
+.latest-news .latest-news-title h6 {
+    color: rgb(245, 144, 12);
+}
+.latest-news .card-item-my img {
+    width: 100%;
+    position: relative;
+    transition: transform 0.2s;
+}
+.latest-news .card-item-my img:hover {
+    transform: scale(1.1);
+}
+.latest-news .card-item-my .text-class {
+    position: absolute;
+    margin-top: -260px;
+    padding: 15px;
+}
+.latest-news .card-item-my .text-class a {
+    background: #185e35;
+    padding: 4px 15px;
+    color: white;
+    border-radius: 20px;
+}
+.card-item-my .card-content-my {
+    background: #fff;
+}
+.card-item-my .card-content-my h4 {
+    padding: 40px 20px;
+    color: #185e35;
+}
+.card-item-my .card-content-my h4:hover {
+    color: #08be54;
+}
+.card-content-my-bottom {
+    border-top: 1px solid rgb(189, 189, 189);
+    text-align: center;
+}
+.card-content-my-bottom p {
+    padding: 20px 0px;
+    color: rgb(189, 189, 189);
+}
+/* Latest News section style end hear  */
+
+/* bottom banner section style start hear */
+.bottom-baner {
+    background-image: url("assets/Image/bbb.jpg");
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.bottom-baner::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgb(4, 97, 9);
+    top: 0;
+    left: 0;
+    opacity: 50%;
+}
+
+.bottom-baner-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-baner-content h1 {
+    color: white;
+    font-size: 5cqi;
+}
+.bottom-baner-content h6 {
+    color: white;
+    margin: 30px 0px;
+}
+.bottom-baner-content a {
+    font-size: 20px;
+    color: white !important;
+    background: rgb(0, 129, 75);
+    z-index: 1;
+    padding: 15px 50px;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.bottom-baner-content a:hover {
+    transform: rotate(360deg);
+    background: rgb(0, 148, 128);
+}
+/* Buttom banner section style end hear */
+/* ========================================About======================================== */
+/* The attitude section start hear */
+.attitude {
+    background: #f9f6f5;
+    padding: 80px 0px;
+}
+.attitude h6 {
+    color: rgb(221, 95, 11);
+}
+.attitude h2 {
+    color: #185e35;
+}
+.attitude p {
+    color: #185e35;
+    margin-bottom: 70px;
+}
+.attitude a {
+    color: white;
+    background: #185e35;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.main-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* The attitude section end hear */
+/* persone yoga section start hear */
+.parson-yoga-section {
+    padding: 80px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.parson-yoga-section .content {
+    background: white;
+    padding: 15px 15px 30px 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-bottom: 30px;
+}
+.parson-yoga-section .content:hover {
+    animation: vibrate 0.5s;
+    animation-iteration-count: infinite;
+}
+.parson-yoga-section .content h2,
+p {
+    color: rgb(64, 65, 64);
+    margin-top: 30px;
+}
+.parson-yoga-section .content img {
+    border-radius: 10px;
+    width: 100%;
+}
+@keyframes vibrate {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(-1deg);
+    }
+    20% {
+        transform: rotate(1deg);
+    }
+    30% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(1deg);
+    }
+    50% {
+        transform: rotate(-1deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    70% {
+        transform: rotate(-1deg);
+    }
+    80% {
+        transform: rotate(1deg);
+    }
+    90% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+/* persone yoga section end hear */
